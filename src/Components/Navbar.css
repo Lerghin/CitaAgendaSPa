@@ -1,0 +1,104 @@
+/* General Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e293b; /* Deep blue-gray */ /* Deep blue-gray */
+    color: white;
+    padding: 15px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .navbar-title {
+    font-size: 20px;
+    font-weight: 200;
+    display: flex;
+    justify-content: flex-start !important;
+    margin-right: 40rem;
+    font-weight: bold;
+    
+  }
+  
+  .navbar-logo .logo-img {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50px;
+
+  }
+  
+  .navbar-menu {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-link {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 5px 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-link:hover,
+  .navbar-link.active {
+    color: #2563eb; /* Accent color */
+  }
+  
+  .logout-button {
+    background-color: #ef4444; /* Red for logout */
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .logout-button:hover {
+    background-color: #dc2626;
+  }
+  
+  /* Mobile Hamburger Menu */
+  .navbar-hamburger {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+  }
+  
+  .hamburger-bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    border-radius: 2px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .navbar-menu {
+      display: none;
+      flex-direction: column;
+      background-color: #1e293b; /* Deep blue-gray */
+      position: absolute;
+      top: 8rem;
+      right: 0;
+      width: 200px;
+      padding: 10px;
+      border-radius: 4px;
+    }
+  
+    .navbar-menu.open {
+      display: flex;
+    }
+  
+    .navbar-hamburger {
+      display: flex;
+    }
+  }

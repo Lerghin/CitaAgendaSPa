@@ -1,13 +1,4 @@
-<<<<<<< HEAD
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-=======
 CitaAgendaSPA es una aplicación web moderna, desarrollada utilizando React.js, que proporciona una experiencia interactiva y completamente responsiva. Su principal objetivo es facilitar la gestión de citas en entornos como peluquerías, donde los usuarios pueden agendar diversos servicios de forma eficiente y sencilla. El sistema ha sido diseñado como una SPA (Single Page Application), garantizando una navegación fluida y sin interrupciones.
 
 Objetivos del Proyecto
